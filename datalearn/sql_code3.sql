@@ -18,7 +18,7 @@ ORDER BY
 	language_code DESC;
 
 
---сортировка книг и авторов по количеству оценок рейтинга по убыванию
+--sort books and authors by ratings_count in descending order
 SELECT
 	title,
 	authors,
@@ -28,7 +28,8 @@ FROM
 ORDER BY
 	ratings_count DESC;
 
---вывод топ-10 самый популярных книг исходя из количества оценок
+
+--output top 10 most popular books based on ratings_count
 SELECT
 	title,
 	authors,
@@ -40,7 +41,8 @@ ORDER BY
 LIMIT
 	10;
 
---отсечение некоторых строк из вывода
+
+--truncate-offset some lines from the output
 SELECT
 	title,
 	authors,
@@ -52,8 +54,8 @@ ORDER BY
 OFFSET
 	10;
 
--- комбинация операторов LIMIT и OFFSET
 
+--LIMIT & OFFSET
 SELECT
 	title,
 	authors,
@@ -67,7 +69,8 @@ LIMIT
 OFFSET
 	3;
 
---быстрый просмотр первых 10 строк в таблице
+
+--10 rows from the table
 SELECT
 	*
 FROM
