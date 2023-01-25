@@ -3,3 +3,5 @@
 🔑sql_code1 -- SELECT ; AS ; Simple arithmetic operations with SQL
 
 🔑sql_code2 -- SELECT data FROM table ; DISTINCT ; --Comments
+
+🔑sql_code3 -- ORDER BY ; LIMIT ; OFFSET
