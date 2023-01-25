@@ -2,4 +2,4 @@
 
 🔑sql_code1 -- SELECT ; AS ; Simple arithmetic operations with SQL
 
-🔑sql_code2 -- SELECT data FROM table ; LIMIT ; Comments
+🔑sql_code2 -- SELECT data FROM table ; DISTINCT ; --Comments
