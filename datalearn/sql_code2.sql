@@ -4,17 +4,15 @@ SELECT * FROM books;
 
 SELECT * FROM video_game_sales; 
 
+-- Comments
 /* books table:
  - (book_id),
  - (title),
  - (authors), 
  - (average_rating),
- - (isbn),
  - (language_code),
  - (num_pages),
  - (ratings_count),
- - (text_reviews_count),
- - (publication_date),
  - (publisher).
  */
 
