@@ -1,4 +1,4 @@
-📚dataset -- contain datasets to create tables and write more complex queries 
+📚dataset -- contain datasets to create tables and write complex queries 
 
 🔑sql_code1 -- SELECT ; AS ; Simple arithmetic operations with SQL
 
