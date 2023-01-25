@@ -42,7 +42,7 @@ LIMIT
 	10;
 
 
---truncate-offset some lines from the output
+--truncate-offset some rows from the output
 SELECT
 	title,
 	authors,
