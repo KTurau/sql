@@ -5,3 +5,5 @@
 🔑sql_code2 -- SELECT data FROM table ; DISTINCT ; --Comments
 
 🔑sql_code3 -- ORDER BY ; LIMIT ; OFFSET
+
+🔑sql_code4 -- Comparison operators (= ; > ; < ; >= ; <= ; <> | !=)
