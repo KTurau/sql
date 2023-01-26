@@ -82,7 +82,7 @@ WHERE
 	platform IS NULL;
 
 
---Aggregate functions do not take null values into account 
+--!Aggregate functions do not take null values into account! 
 --Display the number of platforms from the video_game_sales table (NULL values are not taken into account)
 SELECT
 	COUNT(platform)
