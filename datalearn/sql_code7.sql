@@ -66,10 +66,10 @@ FROM
 	avocado_prices
 WHERE
 	region IN ('Albany',
-			   'BaltimoreWashington',
-				'California',
-				'DallasFtWorth',
-				'HarrisburgScranton')
+		   'BaltimoreWashington',
+		   'California',
+		   'DallasFtWorth',
+		   'HarrisburgScranton')
 GROUP BY
 	region
 ORDER BY
