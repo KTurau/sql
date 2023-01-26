@@ -47,18 +47,6 @@ WHERE
 	region = 'Albany';
 
 
-SELECT
-	region
-FROM
-	avocado_prices;
-
-
-SELECT
-	DISTINCT region
-FROM
-	avocado_prices;
-
-
 --Number of values of the region column from the avocado_prices table (including duplicates)
 SELECT
 	COUNT(region)
