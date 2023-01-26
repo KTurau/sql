@@ -1,4 +1,4 @@
---Output aggregated data for all regions
+--Output aggregated data by all regions
 SELECT
 	region,
 	MAX("total_volume") AS max_volume,
@@ -14,7 +14,7 @@ ORDER BY
 	region;
 
 
---Output aggregated data for Albany and Atlanta
+--Output aggregated data by Albany and Atlanta
 SELECT
 	region,
 	MAX("total_volume") AS max_volume,
@@ -32,7 +32,7 @@ ORDER BY
 	region;
 
 
---Output aggregated data for several regions
+--Output aggregated data by several regions
 SELECT
 	region,
 	MAX("total_volume") AS max_volume,
@@ -54,7 +54,7 @@ ORDER BY
 	region;
 
 
---Output aggregated data for several regions using IN operator
+--Output aggregated data by several regions using IN operator
 SELECT
 	region,
 	MAX("total_volume") AS max_volume,
@@ -74,5 +74,27 @@ GROUP BY
 	region
 ORDER BY
 	region;
+	
+	
+--Aggregated data by region and date
+SELECT
+	date,
+	region,
+	MAX("total_volume") AS max_volume,
+	MIN("total_volume") AS min_volume,
+	AVG("total_volume") AS average_volume,
+	SUM("total_volume") AS sum_volume,
+	COUNT("total_volume") AS count_volume
+FROM
+	avocado_prices
+GROUP BY 
+	date,
+	region	
+ORDER BY 
+	date ASC,
+	region ASC;
+	
+	
+
   
   
