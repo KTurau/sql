@@ -7,3 +7,5 @@
 🔑sql_code3 -- ORDER BY ; LIMIT ; OFFSET
 
 🔑sql_code4 -- Comparison operators (= ; > ; < ; >= ; <= ; <> | !=)
+
+🔑sql_code5 -- WHERE ; BETWEEN ; Logical operators (AND-OR-NOT)
