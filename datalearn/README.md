@@ -11,3 +11,5 @@
 🔑sql_code5 -- WHERE ; BETWEEN ; Logical operators (AND-OR-NOT)
 
 🔑sql_code6 -- NULL ; Aggregate Functions (count-sum-avg-min-max)
+
+🔑sql_code7 -- GROUP BY ; IN
