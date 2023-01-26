@@ -98,22 +98,3 @@ SELECT
 FROM
 	video_game_sales;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
