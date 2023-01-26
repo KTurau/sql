@@ -13,3 +13,5 @@
 🔑sql_code6 -- NULL ; Aggregate Functions (COUNT-SUM-AVG-MIN-MAX)
 
 🔑sql_code7 -- GROUP BY ; IN
+
+🔑sql_code8 -- HAVING ; Query processing order 
