@@ -9,3 +9,5 @@
 🔑sql_code4 -- Comparison operators (= ; > ; < ; >= ; <= ; <> | !=)
 
 🔑sql_code5 -- WHERE ; BETWEEN ; Logical operators (AND-OR-NOT)
+
+🔑sql_code6 -- NULL ; Aggregate Functions (count-sum-avg-min-max)
