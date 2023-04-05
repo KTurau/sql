@@ -1,9 +1,8 @@
-SELECT 
-	*
-FROM
-	[dbo].[EmployeeDemographics]
-WHERE 
-  FirstName = 'Jim';
+
+/*
+where statement 
+=, <>, <, >, and, or, like, null, not null, in
+*/
 
 
 SELECT 
@@ -11,7 +10,7 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  FirstName <> 'Jim';
+ 	FirstName = 'Jim';
 
 
 SELECT 
@@ -19,7 +18,7 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  Age > 30;
+	FirstName <> 'Jim';
 
 
 SELECT 
@@ -27,7 +26,7 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  Age > 30 AND Gender = 'Male';
+	Age > 30;
 
 
 SELECT 
@@ -35,7 +34,7 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  Age > 30 OR Gender = 'Male';
+	Age >= 30 AND Gender = 'Male';
 
 
 SELECT 
@@ -43,7 +42,7 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  LastName LIKE 'S%';
+	Age > 30 OR Gender = 'Male';
 
 
 SELECT 
@@ -51,7 +50,7 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  FirstName IS NOT NULL;
+	LastName LIKE 'S%';
 
 
 SELECT 
@@ -59,7 +58,15 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE 
-  FirstName IN ('Jim', 'Michael');
+	FirstName IS NOT NULL;
+
+
+SELECT 
+	*
+FROM
+	[dbo].[EmployeeDemographics]
+WHERE 
+	FirstName IN ('Jim', 'Michael');
 
 
 
