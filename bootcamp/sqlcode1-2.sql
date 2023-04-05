@@ -1,3 +1,10 @@
+
+/*
+select statement 
+*, top, distinct, count, as, max, min, avg
+*/
+
+
 SELECT
 	*
 FROM
