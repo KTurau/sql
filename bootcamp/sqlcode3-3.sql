@@ -1,6 +1,6 @@
 
 /*
-dtring functions - TRIM, LTRIM, RTRIM, Replace, Upper, Lower, Substring
+string functions - TRIM, LTRIM, RTRIM, Replace, Upper, Lower, Substring
 */
 
 
@@ -11,44 +11,44 @@ EmployeeID varchar(50)
 )
 
 
-Insert into EmployeeErrors Values 
+INSERT INTO EmployeeErrors VALUES 
 ('1001  ', 'Jimbo', 'Halbert')
 ,('  1002', 'Pamela', 'Beasely')
 ,('1005', 'TOby', 'Flenderson - Fired')
 
 
-Select *
-From EmployeeErrors
+SELECT *
+FROM EmployeeErrors
 
 
 -- Using Trim, LTRIM, RTRIM
-Select EmployeeID, TRIM(employeeID) AS IDTRIM
+SELECT EmployeeID, TRIM(employeeID) AS IDTRIM
 FROM EmployeeErrors 
 
-Select EmployeeID, RTRIM(employeeID) as IDRTRIM
+SELECT EmployeeID, RTRIM(employeeID) AS IDRTRIM
 FROM EmployeeErrors 
 
-Select EmployeeID, LTRIM(employeeID) as IDLTRIM
+SELECT EmployeeID, LTRIM(employeeID) AS IDLTRIM
 FROM EmployeeErrors 
 
 
 -- Using Replace
-Select LastName, REPLACE(LastName, '- Fired', '') as LastNameFixed
+SELECT LastName, REPLACE(LastName, '- Fired', '') AS LastNameFixed
 FROM EmployeeErrors
 
 
 -- Using Substring
-Select Substring(err.FirstName,1,3), Substring(dem.FirstName,1,3), Substring(err.LastName,1,3), Substring(dem.LastName,1,3)
+SELECT Substring(err.FirstName,1,3), Substring(dem.FirstName,1,3), Substring(err.LastName,1,3), Substring(dem.LastName,1,3)
 FROM EmployeeErrors err
 JOIN EmployeeDemographics dem
-	on Substring(err.FirstName,1,3) = Substring(dem.FirstName,1,3)
-	and Substring(err.LastName,1,3) = Substring(dem.LastName,1,3)
+	ON Substring(err.FirstName,1,3) = Substring(dem.FirstName,1,3)
+	AND Substring(err.LastName,1,3) = Substring(dem.LastName,1,3)
 
 
 -- Using UPPER and lower
-Select firstname, LOWER(firstname)
-from EmployeeErrors
+SELECT firstname, LOWER(firstname)
+FROM EmployeeErrors
 
-Select Firstname, UPPER(FirstName)
-from EmployeeErrors
+SELECT Firstname, UPPER(FirstName)
+FROM EmployeeErrors
 
