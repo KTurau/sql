@@ -1,3 +1,9 @@
+
+/*
+group by, order by
+*/
+
+
 SELECT 
 	Gender,
   	Age,
@@ -14,7 +20,8 @@ SELECT
 	COUNT(Gender)
 FROM
 	[dbo].[EmployeeDemographics]
-WHERE Age > 31
+WHERE 
+	Age > 31
 GROUP BY
 	Gender;
   
@@ -29,7 +36,7 @@ WHERE
 GROUP BY
 	Gender
 ORDER BY 
-  CountGender DESC;
+	CountGender DESC;
 
 
 SELECT 
