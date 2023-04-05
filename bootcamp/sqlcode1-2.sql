@@ -4,14 +4,14 @@ FROM
 	[dbo].[EmployeeDemographics];
   
  
- SELECT TOP 5
-	*
+SELECT 
+	TOP 5 *
 FROM
 	[dbo].[EmployeeDemographics];
   
   
 SELECT 
-	DISTINCT (Gender)
+	DISTINCT(Gender)
 FROM
 	[dbo].[EmployeeDemographics];  
   
