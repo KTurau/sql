@@ -14,7 +14,8 @@ JOIN
 	ON EmployeeDemographics.EmployeeID = EmployeeSalary.EmployeeID
 GROUP BY 
 	JobTitle
-HAVING COUNT(JobTitle) > 1;   
+HAVING 
+	COUNT(JobTitle) > 1;   
 
 
 SELECT 
@@ -27,8 +28,10 @@ JOIN
 	ON EmployeeDemographics.EmployeeID = EmployeeSalary.EmployeeID
 GROUP BY 
 	JobTitle
-HAVING AVG(Salary) > 45000 
-ORDER BY AVG(Salary)
+HAVING 
+	AVG(Salary) > 45000 
+ORDER BY 
+	AVG(Salary)
 
 
 
