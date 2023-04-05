@@ -1,4 +1,7 @@
 
+--ctrl + shift + r--> hard refresh(to get rid of red lines under your code)
+
+
 --create table 1 
 CREATE TABLE EmployeeDemographics
 (
@@ -20,7 +23,7 @@ Salary int
 
 
 --insert table 1
-Insert INTO EmployeeDemographics VALUES
+INSERT INTO EmployeeDemographics VALUES
 (1001, 'Jim', 'Halpert', 30, 'Male'),
 (1002, 'Pam', 'Beasley', 30, 'Female'),
 (1003, 'Dwight', 'Schrute', 29, 'Male'),
@@ -33,7 +36,7 @@ Insert INTO EmployeeDemographics VALUES
 
 
 --insert table2
-Insert INTO EmployeeSalary VALUES
+INSERT INTO EmployeeSalary VALUES
 (1001, 'Salesman', 45000),
 (1002, 'Receptionist', 36000),
 (1003, 'Salesman', 63000),
