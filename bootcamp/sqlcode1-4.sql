@@ -1,38 +1,35 @@
 SELECT 
 	Gender,
-  Age,
+  	Age,
 	COUNT(Gender)
 FROM
 	[dbo].[EmployeeDemographics]
 GROUP BY
 	Gender,
-  Age;
+  	Age;
   
   
 SELECT 
 	Gender,
-	Age,
 	COUNT(Gender)
 FROM
 	[dbo].[EmployeeDemographics]
 WHERE Age > 31
 GROUP BY
-	Gender,
-	Age;
+	Gender;
   
   
   SELECT 
 	Gender,
-	Age,
 	COUNT(Gender) AS CountGender
 FROM
 	[dbo].[EmployeeDemographics]
-WHERE Age > 31
+WHERE 
+	Age > 31
 GROUP BY
-	Gender,
-	Age
+	Gender
 ORDER BY 
-  CountGender;
+  CountGender DESC;
 
 
 SELECT 
@@ -40,7 +37,8 @@ SELECT
 FROM
 	[dbo].[EmployeeDemographics]
 ORDER BY 
-	Age DESC;
+	Age DESC,
+	Gender DESC;
 
 
 
