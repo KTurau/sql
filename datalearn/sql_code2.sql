@@ -4,8 +4,10 @@ SELECT * FROM books;
 
 SELECT * FROM video_game_sales; 
 
+
 -- Comments
-/* books table:
+ /*
+ - books table:
  - (book_id),
  - (title),
  - (authors), 
@@ -15,6 +17,7 @@ SELECT * FROM video_game_sales;
  - (ratings_count),
  - (publisher).
  */
+
 
 SELECT title, authors, publisher FROM books; 
 
