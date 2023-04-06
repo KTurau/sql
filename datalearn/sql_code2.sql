@@ -1,5 +1,7 @@
 --(PL/pgSQL)
 
+
+
 SELECT * FROM avocado_prices; 
 
 SELECT * FROM books; 
