@@ -1,3 +1,6 @@
+--(PL/pgSQL)
+
+
 -- Using SQL as a calculator 
 
 SELECT
