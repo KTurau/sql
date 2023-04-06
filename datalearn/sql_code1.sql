@@ -10,3 +10,4 @@ SELECT
 	13.0 / 2 AS "to get float",
 	11 % 2 AS "find remainder of a division"
      -- 3 ** 2 !not working! Use POWER() Function to find the power of number
+     
