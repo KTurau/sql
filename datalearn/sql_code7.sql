@@ -1,3 +1,9 @@
+--(PL/pgSQL)
+
+
+
+
+
 --Output aggregated data by all regions
 SELECT
 	region,
