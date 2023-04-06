@@ -5,7 +5,6 @@ SELECT
 	10 / 2 AS "division", 
 	35 * 3 AS "multiplication",
 	38 - 4 AS "subtraction",
-	3 - 4,
 	45 + 12 AS "addition",
 	13 / 2 AS "to get int",
 	13.0 / 2 AS "to get float",
