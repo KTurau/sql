@@ -1,3 +1,7 @@
+--(PL/pgSQL)
+
+
+
 --arithmetic operations with cell values
 SELECT
 	title,
