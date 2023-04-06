@@ -35,7 +35,7 @@ WHERE
 
 --Output max, min, avg, sum, count value of Total_Volume from the avocado_prices table for the region = 'Albania'
 SELECT
-	MAX("total_volume") AS max_volume,
+  MAX("total_volume") AS max_volume,
   MIN("total_volume") AS min_volume,
   AVG("total_volume") AS average_volume,
   SUM("total_volume") AS sum_volume,
