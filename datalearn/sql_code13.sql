@@ -93,10 +93,6 @@ WHERE
 	n.id IS NULL;
 	
 
---PRIMARY - Первичный ключ
---FOREIGN - внешний ключ
-
-
 --Запрос, который выводит все данные из таблицы classes схемы school
 SELECT
 	*
