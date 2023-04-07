@@ -1,3 +1,5 @@
+
+--запрос соединяющий данные таблиц customers и orders
 SELECT
 	*
 FROM
@@ -7,6 +9,7 @@ JOIN
 		ON c.customer_id = o.customer_id;
 
 
+--запрос соединяющий данные таблиц orders и customers (отличается лишь порядок вывода)
 SELECT
 	*
 FROM
@@ -16,6 +19,7 @@ JOIN
 		ON c.customer_id = o.customer_id;
 
 
+--вывод имени клиента, его адреса, номера заказа и даты покупки
 SELECT
 	c.customer_name,
 	c.address,
