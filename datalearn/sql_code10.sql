@@ -1,22 +1,3 @@
-
-SELECT
-	*
-FROM
-	magazine.customers;
-
-
-SELECT
-	*
-FROM
-	magazine.orders;
-
-
-SELECT
-	*
-FROM
-	magazine.subscriptions;
-
-
 SELECT
 	*
 FROM
