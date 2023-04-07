@@ -40,6 +40,7 @@ ORDER BY
 
 -- Запрос выше равносилен ниже запросу с использованием подзапроса, в котором используется UNION ALL:
 SELECT
+	DISTINCT
 	our_query.first_name,
 	our_query.last_name
 FROM
@@ -48,7 +49,7 @@ FROM
 		m.last_name
 	FROM
 		magazine.newspaper AS m
-	UNION
+	UNION ALL
 	SELECT
 		o.first_name,
 		o.last_name
