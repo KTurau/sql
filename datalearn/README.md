@@ -17,3 +17,5 @@
 🔑sql_code8 -- HAVING ; Query processing order 
 
 💫sql_code9 -- DB Schema; SQL Style Guide
+
+💫sql_code10 -- Getting Started with JOINing
