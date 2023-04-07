@@ -29,3 +29,5 @@
 💫sql_code14 -- CROSS JOIN 
 
 💫sql_code15 -- UNION ; UNION ALL 
+
+💫sql_code16 -- EXCEPT ; INTERSECT
