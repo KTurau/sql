@@ -19,3 +19,9 @@
 💫sql_code9 -- DB Schema; SQL Style Guide
 
 💫sql_code10 -- Getting Started with JOINing
+
+💫sql_code11 -- INNER JOIN
+
+💫sql_code12 -- LEFT JOIN
+
+💫sql_code13 -- RIGHT JOIN ; FULL JOIN ; PRIMARY & FOREIGN KEYS
