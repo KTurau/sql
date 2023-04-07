@@ -1,5 +1,9 @@
 📚dataset -- contain datasets to create tables and write complex queries 
 
+  Project1 -- COVID Data Exploration
+  
+  Project2 -- Housing Data Cleaning in SQL
+
 🔑sql_code1 -- SELECT ; AS ; Simple arithmetic operations with SQL
 
 🔑sql_code2 -- SELECT data FROM table ; DISTINCT ; --Comments
