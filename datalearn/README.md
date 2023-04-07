@@ -24,4 +24,4 @@
 
 💫sql_code12 -- LEFT JOIN
 
-💫sql_code13 -- RIGHT JOIN ; FULL JOIN ; PRIMARY & FOREIGN KEYS
+💫sql_code13 -- RIGHT JOIN ; FULL JOIN 
