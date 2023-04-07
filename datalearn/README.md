@@ -15,3 +15,5 @@
 🔑sql_code7 -- GROUP BY ; IN
 
 🔑sql_code8 -- HAVING ; Query processing order 
+
+💫sql_code9 -- DB Schema; SQL Style Guide
