@@ -1,3 +1,7 @@
+--(PL/pgSQL)
+
+
+
 --Напишите запрос соединяющий таблицу orders и subscriptions
 SELECT
 	*
