@@ -25,3 +25,7 @@
 💫sql_code12 -- LEFT JOIN
 
 💫sql_code13 -- RIGHT JOIN ; FULL JOIN 
+
+💫sql_code14 -- CROSS JOIN 
+
+💫sql_code15 -- UNION ; UNION ALL 
