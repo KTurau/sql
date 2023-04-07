@@ -60,21 +60,6 @@ ORDER BY
 	1;
 
 
---Запрос выше можно записать используя оператор USING вместо ON:
-SELECT
-  *
-FROM
-    magazine.newspaper AS n
-INNER JOIN
-	magazine.online AS o
-		USING(id)
-ORDER BY
-	1;
-
-
-
-
-
 
 
 
