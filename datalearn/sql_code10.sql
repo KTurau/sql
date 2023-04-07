@@ -1,3 +1,6 @@
+--(PL/pgSQL)
+
+
 
 --запрос соединяющий данные таблиц customers и orders
 SELECT
