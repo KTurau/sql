@@ -21,6 +21,7 @@ known as data modeling.
 
 https://www.sqlstyle.guide
 
+--задание псенвдонима для таблицы с указанием схемы, откуда мы берем нашу таблицу
 SELECT
 	b.authors,
 	b.title
@@ -28,6 +29,7 @@ FROM
 	public.books AS b;
   
   
+--базовый пример с заданием псевдонимов для таблиц  
 SELECT
 	b.authors,
 	b.title,
@@ -39,6 +41,7 @@ JOIN
 	public.magazines AS m;
   
   
+--еще примеры запросов с заданием псевдонимов для таблиц  
 SELECT
 	*
 FROM
