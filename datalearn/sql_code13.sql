@@ -93,20 +93,6 @@ WHERE
 	n.id IS NULL;
 	
 
---Запрос, который выводит все данные из таблицы classes схемы school
-SELECT
-	*
-FROM
-	school.classes;
-
-
---Запрос, который выводит все данные из таблицы students схемы school
-SELECT
-	*
-FROM
-	school.students;
-
-
 --Запрос, объединяющий таблицы classes и таблицы students схемы school по ключам (PRIMARY и FOREIGN)
 SELECT
 	*
