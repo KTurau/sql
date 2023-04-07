@@ -8,6 +8,7 @@ LEFT JOIN
 	magazine.online AS o
 		ON n.id = o.id;
 
+
 --Следующий запрос демонстрирует как работает внешнее соединение RIGHT JOIN
 SELECT
 	*
@@ -16,6 +17,7 @@ FROM
 RIGHT JOIN
 	magazine.online AS o
 		ON n.id = o.id;
+
 
 --Следующий запрос с использованием RIGHT JOIN аналогичен первому запросу с использованием LEFT JOIN
 -- с единственным отличием, что таблицы выводятся в разном порядке:
@@ -27,6 +29,7 @@ RIGHT JOIN
 	magazine.newspaper AS n
 		ON o.id = n.id;
 
+
 -- Запрос, который объединяет в себе результаты LEFT JOIN + RIGHT JOIN, для этого используется тип соединения FULL JOIN
 SELECT
 	*
@@ -37,6 +40,7 @@ FULL JOIN
 		ON o.id = n.id
 ORDER BY
 	o.id;
+
 
 --Результат FULL JOIN - это объединение результатов трех запросов ниже:
 
@@ -92,17 +96,20 @@ WHERE
 --PRIMARY - Первичный ключ
 --FOREIGN - внешний ключ
 
+
 --Запрос, который выводит все данные из таблицы classes схемы school
 SELECT
 	*
 FROM
 	school.classes;
 
+
 --Запрос, который выводит все данные из таблицы students схемы school
 SELECT
 	*
 FROM
 	school.students;
+
 
 --Запрос, объединяющий таблицы classes и таблицы students схемы school по ключам (PRIMARY и FOREIGN)
 SELECT
