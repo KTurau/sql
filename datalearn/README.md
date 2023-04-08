@@ -36,4 +36,4 @@
 
 💫sql_code16 -- EXCEPT ; INTERSECT
 
-💫sql_code17 -- LIKE ; CASE ; Date & Time Functions
+💫sql_code17 -- LIKE ; CASE ; LENGTH ; Date & Time Functions

@@ -12,6 +12,7 @@ FROM
 WHERE
 	name = 'Lillian';
 
+
 --Вывести уникальные имена детей, которые начинаются на букву S
 SELECT
 	DISTINCT name
@@ -19,6 +20,7 @@ FROM
 	babies
 WHERE
 	name LIKE 'S%';
+
 
 --Вывести уникальные имена детей, которые начинаются на букву S и заканчиваются на букву n
 SELECT
@@ -28,6 +30,7 @@ FROM
 WHERE
 	name LIKE 'S%n';
 
+
 --Вывести уникальные имена детей, которые начинаются на букву S, 4-ая буква имени является o
 SELECT
 	DISTINCT name
@@ -36,6 +39,7 @@ FROM
 WHERE
 	name LIKE 'S__o%';
 
+
 --Вывести уникальные имена детей, которые начинаются на букву S (используя оператор ILIKE)
 SELECT
 	DISTINCT name
@@ -43,6 +47,7 @@ FROM
 	babies
 WHERE
 	name ILIKE 's%';
+
 
 --Вывести все столбцы из таблицы фильмов, при условии, что имя фильма состоит из 5 символов,
 --начинается с "Se" и заканчивается на "en" 
@@ -57,6 +62,7 @@ FROM
 WHERE
 	name LIKE 'Se_en';
 
+
 --Вывести название и длинну названия в порядке убывания
 SELECT
 	name,
@@ -66,6 +72,7 @@ FROM
 ORDER BY
 	LENGTH(name) DESC;
 
+
 --Вывести все столбцы из таблицы фильмов, названия которых начинаются на букву А
 SELECT
 	* 
@@ -73,6 +80,7 @@ FROM
 	movies
 WHERE
 	name LIKE 'A%';
+
 
 --Вывести все столбцы из таблицы фильмов, в названии которых содержится слово man
 SELECT
@@ -82,6 +90,7 @@ FROM
 WHERE
 	name LIKE '%man%';
 
+
 --Вывести все столбцы из таблицы фильмов, название которых начинается с 'The'
 SELECT
 	* 
@@ -90,13 +99,7 @@ FROM
 WHERE
 
 	name LIKE 'The %';
---Вывести все столбцы из таблицы фильмов, название которых начинается с артикля 'The'
-SELECT
-	* 
-FROM
-	movies
-WHERE
-	name LIKE 'The %';
+
 
 --Вывести названия фильмов и дополнительный столбец с рекомендациями к просмотру базируясь на рейтинге 
 --используя оператор CASE. Если рейтинг больше 8 - выводить слово 'Fantastic', если рейтинг больше 6 - 
@@ -112,11 +115,13 @@ SELECT
 FROM
 	movies;
 
+
 --Уникальные жанры в таблице с фильмами
 SELECT
 	DISTINCT genre
 FROM
 	public.movies;
+
 
 --Вывести названия фильмов и дополнительный столбец с информацией под какое настроение подходит тот или
 --иной фильм базируясь на жанре используя оператор CASE. Если жанр 'романтика' - выводить слово 'Отдых',
@@ -125,26 +130,28 @@ FROM
 SELECT
 	name,
 	CASE
-		WHEN genre = 'romance' THEN 'Отдых'
-		WHEN genre = 'comedy' THEN 'Отдых'
-		ELSE 'Другое'
-	END AS Настроение
+		WHEN genre = 'romance' THEN 'relax'
+		WHEN genre = 'comedy' THEN 'relax'
+		ELSE 'else'
+	END AS moode
 FROM
 	movies
 ORDER BY
 	2 DESC;
 
+
 --Пример выше только покороче используя оператор OR
 SELECT
 	name,
 	CASE
-		WHEN genre = 'romance' OR genre = 'comedy' THEN 'Отдых'
-		ELSE 'Другое'
-	END AS Настроение
+		WHEN genre = 'romance' OR genre = 'comedy' THEN 'relax'
+		ELSE 'else'
+	END AS mood
 FROM
 	movies
 ORDER BY
 	2 DESC;
+
 
 --функции для получения текущего времени:
 SELECT
@@ -154,10 +161,12 @@ SELECT
 --Показать текущий часовой пояс
 show timezone;
 
+
 -- Показать текущее время в Лос Анжелесе (США)
 SELECT
 	now(),
 	now() at time zone 'America/Los_Angeles'
+
 
 --Дополнительные примеры функциями для работы с датой и временем
 SELECT
@@ -169,6 +178,7 @@ SELECT
 	now()::date AS date,
 	now()::time AS time;
 
+
 --пример конкатенации (соединения) строчных значений:
 SELECT
 	genre,
@@ -177,6 +187,7 @@ SELECT
 FROM
 	movies;
 	
+
 --Функции перевода для перевода регистров в строчных значениях:
 SELECT
 	name,
@@ -184,6 +195,7 @@ SELECT
 	upper(name)
 FROM
 	movies;
+
 
 --Функция по замене символов в строке
 SELECT
