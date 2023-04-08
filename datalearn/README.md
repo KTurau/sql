@@ -37,3 +37,5 @@
 💫sql_code16 -- EXCEPT ; INTERSECT
 
 💫sql_code17 -- LIKE ; CASE ; LENGTH ; Date & Time Functions
+
+💫sql_code18 -- CTE ; Subqueries ; EXISTS-NOT EXISTS
