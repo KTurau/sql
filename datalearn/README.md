@@ -35,3 +35,5 @@
 💫sql_code15 -- UNION ; UNION ALL 
 
 💫sql_code16 -- EXCEPT ; INTERSECT
+
+💫sql_code17 -- LIKE ; CASE ; Date & Time Functions
