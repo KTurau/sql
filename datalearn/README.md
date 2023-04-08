@@ -39,3 +39,5 @@
 💫sql_code17 -- LIKE ; CASE ; LENGTH ; Date & Time Functions
 
 💫sql_code18 -- CTE ; Subqueries ; EXISTS-NOT EXISTS
+
+💫sql_code19 -- SQL Practice
