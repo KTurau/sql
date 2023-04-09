@@ -1,3 +1,7 @@
+--T-SQL
+
+
+
 --DQL – Data Query Language
 --DDL – Data Definition Language
 --DML – Data Manipulation Language
