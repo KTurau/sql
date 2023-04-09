@@ -42,4 +42,4 @@
 
 💫[sql_code19](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code19.sql) -- SQL Practice
 
-💫[sql_code20] -- SQL Structure (DDL/DQL/DML/DCL/TCL)
+💫[sql_code20](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code20.sql) -- SQL Structure (DDL/DQL/DML/DCL/TCL)
