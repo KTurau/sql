@@ -41,3 +41,5 @@
 💫[sql_code18](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code18.sql) -- CTE ; Subqueries ; EXISTS-NOT EXISTS
 
 💫[sql_code19](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code19.sql) -- SQL Practice
+
+💫[sql_code20] -- SQL Structure (DDL/DQL/DML/DCL/TCL)
