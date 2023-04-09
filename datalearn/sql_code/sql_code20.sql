@@ -102,7 +102,7 @@ VALUES ('1', 'Ivanov', 'Ivan', 'Ukraine', 'Kyiv', '2020-12-01');
 
 INSERT INTO Person (PersonID, LastName, FirstName, Address, DateCreated)
 VALUES ('2', 'Sergeev', 'Sergey', 'USA', '2021-02-16'),
-		('3', 'Petrov', 'John', 'Greece', '2021-02-16');34_3
+		('3', 'Petrov', 'John', 'Greece', '2021-02-16');
 
 
 --Обновить данные в таблице (синтаксис)
