@@ -44,4 +44,4 @@
 
 
 💫[sql_code20] -- SQL Structure (DDL/DQL/DML/DCL/TCL) ; CREATE TABLE ; INSERT INTO ; UPDATE ; DROP ; ALTER TABLE ; DELETE
-=======
+
