@@ -14,6 +14,9 @@
 --11) TOP
 
 
+USE [AdventureWorks2019];
+
+
 --Следующий SQL запрос выбирает первые три записи из таблицы Sales.SalesOrderDetail
 SELECT
 	TOP 3 *
@@ -30,21 +33,11 @@ ORDER BY
 	[OrderQty] DESC;
 
 
---Следующий запрос с сортировкой по убыванию по OrderQty WITH TIES:
-SELECT
-	TOP 3 WITH TIES * 
-FROM
-	Sales.SalesOrderDetail
-ORDER BY
-	[OrderQty] DESC;
-
-
 --Следующий SQL инструкция выбирает ВСЕ значения из столбца «PersonType» в таблице «Person»
 SELECT
 	ALL PersonType
 FROM
 	Person.Person;​
-
 
 --Аналогично
 SELECT
@@ -147,7 +140,6 @@ FROM
 	Person.Address 
 ORDER BY
 	AddressID, City; 
-
 
 --Вариант 2
 SELECT
@@ -322,7 +314,7 @@ SELECT
 FROM
 	HumanResources.Employee
 WHERE
-	JobTitle IN
+	JobTitle NOT IN
 		('Engineering Manager', 'Senior Design Engineer', 'Design Engineer');
 		
 		 
