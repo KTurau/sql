@@ -384,7 +384,7 @@ FULL OUTER JOIN
 		ON SOD.ProductID = P.ProductID
 ORDER BY
 	P.Name;
-	
+
 
 --FULL OUTER JOIN - это сумма результатов запросов INNER JOIN + LEFT JOIN + RIGHT JOIN
 
