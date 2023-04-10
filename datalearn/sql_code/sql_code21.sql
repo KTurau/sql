@@ -484,7 +484,7 @@ SELECT
 	SalesOrderID,
 	OrderQty,
 	CASE
-		WHEN OrderQty < 2 THEN 'The quantity the quantity is too small'
+		WHEN OrderQty < 2 THEN 'The quantity is too small'
 		WHEN OrderQty > 2 THEN 'The quantity  is OK'
 		ELSE 'The quantity is 2'
 	END AS QuantityText
