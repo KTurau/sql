@@ -44,3 +44,16 @@
 
 🚀[sql_code20](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code20.sql) -- SQL Structure (DDL/DQL/DML/DCL/TCL) ; CREATE TABLE ; INSERT INTO ; UPDATE ; DROP TABLE ; ALTER TABLE ; DELETE
 
+🚀[sql_code21](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code21.sql) -- Total Recall ; Data Types 
+
+
+
+
+
+
+
+
+
+
+
+
