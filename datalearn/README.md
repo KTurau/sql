@@ -46,6 +46,8 @@
 
 🚀[sql_code21(T-SQL)](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code21.sql) -- TOP ; Data Types ; SQL Practice(Total Recall)
 
+🚀[sql_code22(PL/pgSQL)](https://github.com/KTurau/sql/blob/main/datalearn/sql_code/sql_code22.sql) -- SQL Window Functions
+
 
 
 
