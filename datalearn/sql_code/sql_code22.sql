@@ -5,11 +5,13 @@
 --Создание схем windows_functions
 CREATE SCHEMA IF NOT EXISTS windows_functions
 
+
 --Выведем все данные из таблицы в схеме windows_functions:
 SELECT
 	*
 FROM
 	windows_functions.salary;
+
 
 --Кто получает больше всего в каждом департаменте?
 SELECT
@@ -19,6 +21,7 @@ FROM
 	windows_functions.salary
 GROUP BY
 	department;
+
 
 --Кто получает больше всего в каждом департаменте (дополнительно вывести идентификатор сотрудника и его имя)?
 SELECT
@@ -39,6 +42,7 @@ JOIN
 			ON  max_s.department = s.department
 				AND
 				max_s.max_salary = s.gross_salary;
+
 
 --Запрос выше только с помощью USING вместо ON
 SELECT
